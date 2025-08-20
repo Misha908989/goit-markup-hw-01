@@ -14,6 +14,12 @@ body {
     width: auto;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 title {
     font-family: Roboto;
     font-weight: 700;
@@ -36,7 +42,7 @@ h3 {
     margin: 0;
 }
 
-p { 
+p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -66,7 +72,6 @@ a {
 
 .studio-blue {
     color: #4D5AE5;
-
 }
 
 .menu {
@@ -81,17 +86,16 @@ a {
     font-size: 20px;
 }
 
-.menu_sect {
+.menu_sect ul {
     display: flex;
     gap: 25px;
     padding-left: 20px;
 }
 
-.cont {
+.cont ul {
     display: flex;
     gap: 25px;
     align-items: center;
-    margin-right: 100px;
 }
 
 /* ====== Button ====== */
@@ -115,7 +119,7 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     width: 540px;
-    margin-bottom: 48px; /* Замість padding-bottom */
+    margin-bottom: 48px;
 }
 
 button {
@@ -126,15 +130,11 @@ button {
     letter-spacing: 0.02em;
     cursor: pointer;
     border: none;
-
     width: 169px;
     height: 56px;
-    
-    /* Видаляємо абсолютне позиціювання */
     position: static;
     transform: none;
     opacity: 1;
-
     border-radius: 4px;
     padding: 16px 32px;
     display: flex;
@@ -144,7 +144,7 @@ button {
     background: #4D5AE5;
 }
 
-.but_text { 
+.but_text {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -225,7 +225,6 @@ button {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
     text-align: center;
     overflow: hidden;
-    
     position: static;
     transform: none;
     opacity: 1;
@@ -256,8 +255,8 @@ button {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Змінюємо на flex-start */
-    padding-left: 156px; /* Додаємо відступ зліва */
+    justify-content: flex-start;
+    padding-left: 156px;
 }
 
 .about_web {
