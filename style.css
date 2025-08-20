@@ -1,0 +1,174 @@
+/* ====== Styles ====== */
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+}
+
+title {
+    font-family: Roboto;
+    font-weight: 700;
+    size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 60px;
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+p { 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+
+
+a {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+/* ====== Menu ====== */
+.menu_cont {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1440px;
+    height: 72px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu_title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu_sect {
+    display: flex;
+    gap: 25px;
+}
+
+.cont {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+/* ====== Button ====== */
+.baner {
+    background-color: #2E2F42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 600px;
+    color: white;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 540px;
+    padding-bottom: 100px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+
+    width: 180px;
+    height: 56px;
+    position: absolute;
+    top: 428px;
+    left: 636px;
+
+    transform: rotate(0deg);
+    opacity: 1;
+
+    border-radius: 4px;
+
+    padding: 16px 32px;
+    display: flex;
+    gap: 10px;
+    background: #4D5AE5;
+;
+}
+
+.but_text { 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+/* ====== Our Team ====== */
+.our_team {
+    width: 1440px;
+    height: 732px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ====== Contacts ====== */
+.web_studio {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 312px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_web {
+    max-width: 264px;
+    text-align: left;
+}
+
+.web_h3 {
+    padding-bottom: 15px;
+}
