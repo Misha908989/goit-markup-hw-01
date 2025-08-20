@@ -98,6 +98,13 @@ a {
     align-items: center;
 }
 
+.cont {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-right: 100px;
+}
+
 /* ====== Button ====== */
 .baner {
     background-color: #2E2F42;
